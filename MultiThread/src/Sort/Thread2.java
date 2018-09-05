@@ -12,7 +12,6 @@ public class Thread2 implements Runnable {
     }  
   
     public void run() {  
-        // TODO Auto-generated method stub  
         Arrays.sort(Thread2, 0, Thread2.length);  
         for(int i=0; i<Thread2.length; i++)  
         {  
